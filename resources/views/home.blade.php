@@ -1,6 +1,6 @@
 <x-app-layout>
     <section class="mt-20">
-        <h1 class="text-5xl text-white/35">Find Great Place To Work</h1>
+        <h1 class="text-5xl text-white/50">Find Great Place To Work</h1>
         <p class="mt-6 text-white/90">Get access to to millions company reviews</p>
     </section>
     <section>

@@ -9,6 +9,6 @@
     </div>
     <div class="flex justify-around pt-3 mt-auto">
         <a href="#" class="hover:underline hover:text-blue-900">Questions</a>
-        <a href="#" class="hover:underline hover:text-blue-900">Open Jobs</a>
+        <a href="/jobs/1" class="hover:underline hover:text-blue-900">Open Jobs</a>
     </div>
 </div>

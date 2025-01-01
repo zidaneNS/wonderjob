@@ -18,7 +18,7 @@
             <x-nav-link href="/contact" :active="request()->is('contact')">Contact</x-nav-link>
         </div>
         <div class="flex gap-x-6 items-center">
-            <a href="#" class="bg-blue-900 rounded-xl py-2 px-4 transition duration-300 hover:bg-blue-600">Sign In</a>
+            <a href="/login" class="bg-blue-900 rounded-xl py-2 px-4 transition duration-300 hover:bg-blue-600">Sign In</a>
             <span class="w-8 h-8 block bg-white rounded-full"></span>
         </div>
     </nav>
