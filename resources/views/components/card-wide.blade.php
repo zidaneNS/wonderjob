@@ -4,7 +4,7 @@
         <div class="flex flex-col">
             <h2 class="text-xl font-bold group-hover:text-blue-900 transition duration-300">{{ $title }}</h2>
             <p class="text-sm text-white/50">{{ $slot }} | {{ $location }}</p>
-            <h5 class="text-lg">Salary</h5>
+            <h5 class="text-lg">{{ $salary }} / year</h5>
         </div>
     </div>
     <div class="flex justify-between items-center gap-x-2">
