@@ -16,5 +16,6 @@ Route::get('/', function () {
 // Route::view('/register', 'auth.register');
 
 Route::get('/jobs', [JobListController::class, 'index']);
+Route::get('/jobs/{jobList}', [JobListController::class, 'show']);
 
 Route::view('/contact', 'contact');

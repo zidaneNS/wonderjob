@@ -12,6 +12,7 @@
                 {{ $joblist->user->name }}
                 <x-slot:location>{{ $joblist->location }}</x-slot:location>
                 <x-slot:salary>{{ $joblist->salary }}</x-slot:salary>
+                <x-slot:id>{{ $joblist->id }}</x-slot:id>
             </x-card-wide>
         @endforeach
     </section>

@@ -9,6 +9,6 @@
     </div>
     <div class="flex justify-between items-center gap-x-2">
         <a href="#" class="py-2 px-4 bg-white/20 rounded-xl hover:bg-white/15 transition duration-300">Questions</a>
-        <a href="/jobs/1" class="py-2 px-4 bg-white/20 rounded-xl hover:bg-white/15 transition duration-300">Open Jobs</a>
+        <a href="/jobs/{{ $id }}" class="py-2 px-4 bg-white/20 rounded-xl hover:bg-white/15 transition duration-300">Open Jobs</a>
     </div>
 </div>

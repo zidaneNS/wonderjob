@@ -37,7 +37,7 @@ class JobListController extends Controller
      */
     public function show(JobList $jobList)
     {
-        //
+        return view('jobs.show', ['joblist' => $jobList]);
     }
 
     /**
